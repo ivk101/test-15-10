@@ -1,0 +1,68 @@
+/*Стили menu*/
+
+@media (max-width: 1024px) {
+	.menu {
+		order: 3; 
+		position: static;
+	}
+}
+@media (max-width: 320px) {
+    .menu {
+	    position: absolute;
+	    top: 17px;
+	    right: 15px;
+    }
+}
+
+.menuButton {
+	width: 31px;
+	height: 31px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: rotate(0deg);
+	border-radius: 31px;
+	background: transparent;
+	border: 0;
+	transform: rotate(90deg);
+}
+@media (max-width: 1024px) {
+	.menuButton {
+		transform: rotate(90deg);
+	}
+}
+@media (max-width: 320px) {
+	.menuButton {
+		transform: rotate(0deg);
+	}
+}
+.menuButton:active, .menuButton:hover {
+	background-color: rgba(51, 51, 51, 0.1);
+}
+
+.dropdown {
+	background: #ffffff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+}
+
+.dropdown {
+    position: absolute;
+	top: 17px;
+	right: -62px;
+}
+@media (max-width: 320px) {
+    .dropdown{
+	    top: 17px;
+	    right: 15px;
+    }
+}
+
+.closeButton {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background: #d9d9d9;
+    border-radius: 0px 0px 3px 3px;
+    color: #666666;
+}

@@ -1,0 +1,22 @@
+.threadTitle {
+	font-weight: normal;
+	line-height: 23px;
+}
+@media all and (max-width: 1024px) {
+	.threadTitle {
+		order: 1;
+		margin: 0;
+		font-size: 28px;
+		font-weight: 400;
+		color: #333333;
+	}
+}
+@media (max-width: 320px) {
+	.threadTitle {	
+		order: 0;
+	    margin-left: 20px;
+		margin-bottom: 15px;
+		font-size: 20px;	
+	}
+}
+

@@ -1,0 +1,22 @@
+/*Стили textContent*/
+.textContent {
+	display: flex;
+	flex-flow: column;
+	order: 2;
+	padding-left: 38px;
+}
+@media (max-width: 1024px) {
+	.textContent {
+		flex-flow: column;
+		order: 2;
+		padding-left: 38px;
+	}
+}
+@media (max-width: 320px) {
+	.textContent {
+		order: 0;
+		flex-flow: row wrap;
+		padding: 22px 20px 13px;
+	}
+}
+

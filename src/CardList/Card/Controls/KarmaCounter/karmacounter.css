@@ -1,0 +1,42 @@
+/*.karmaCounter > * + * {
+	padding: 0 0 0 4px;
+}*/
+.karmaValue {
+	color: var(--greyC4);
+}
+@media (max-width: 1024px) {
+	.karmaValue {
+		margin: 2px 0;
+	}
+}
+@media (max-width: 320px) {
+	.karmaValue {
+		margin: 0;
+	}
+}
+
+svg.down {
+	transform: rotate(180deg);
+}
+
+.karmaCounter {
+	display: flex;
+	flex-flow: column;
+	margin-left: 22px;
+	padding-right: 3px;
+}
+@media (max-width: 1024px) {
+	.karmaCounter {
+		display: flex;
+		flex-flow: column;
+		margin-left: 22px;
+		padding-right: 3px;
+	}
+}
+@media (max-width: 320px) {
+	.karmaCounter {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+}

@@ -1,0 +1,30 @@
+/*Стили preview*/
+.preview {
+	max-height: 178px;
+}
+@media (max-width: 1024px) {
+	.preview {
+		order: 1;
+	}
+}
+@media (max-width: 320px) {
+	.preview {
+		order: 0;
+	}
+}
+.previewImg {
+	object-fit: cover;
+}
+@media (max-width: 1024px) {
+	.previewImg {
+	    width: 190px;
+	    flex-basis: 190px;
+    }
+}
+@media (max-width: 320px) {
+	.previewImg {
+	    width: 100%;
+	    height: 100%;
+    }
+}
+

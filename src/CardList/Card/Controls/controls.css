@@ -1,0 +1,22 @@
+/*Стили controls*/
+.controls {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	order: 4;
+	padding: 0;
+}
+@media (max-width: 1024px) {
+	.controls {
+		order: 4;
+		padding: 0;
+	}
+}
+@media (max-width: 320px) {
+	.controls {
+		order: 0;
+		align-items: center;
+		padding: 10px 20px;
+	}
+}
+
